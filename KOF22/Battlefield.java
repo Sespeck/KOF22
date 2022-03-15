@@ -94,6 +94,7 @@ class Battle{
             System.out.println(String.format("================Attack %d================", round));
             System.out.println("Select an attack method for the hero by keying in a number(1,2,3)\n
                 1.Ordinary attack  2. Attack with weapon  3. Special attack with weapon");
+            // TODO: evil phrase
             // TODO: try block
             int attackNumber = attackOption.nextInt();
             switch (attackNumber){
