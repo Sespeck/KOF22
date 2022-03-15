@@ -20,7 +20,7 @@ public class Heroes extends CharaterList{
 
     public String print(){
         for(int x = 0; x<heroList.getSize(); x++){
-			System.out.print(" " + heroList.get(x) + " ");
+			System.out.print(" " + heroList.get(x).getName() + " ");
 		}
     }
 }
