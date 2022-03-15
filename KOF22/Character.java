@@ -124,9 +124,9 @@ class Hero extends Character {
     }
 
 }
-class BadGuy extends Character {
+class Evil extends Character {
 
-    public BadGuy(String name, int hp, int power){
+    public Evil(String name, int hp, int power){
         super(name, hp, power);
     }
 
@@ -162,7 +162,8 @@ class BadGuy extends Character {
     public Phrases speak(){
         return Phrases.values()[new Random().nextInt(Phrases.values().length)];
     }
-
+    
+    @Override
     public int attack(){
         this.speak();
         Random r = new Random();
