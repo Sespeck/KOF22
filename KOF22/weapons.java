@@ -6,7 +6,7 @@ abstract class weapons {
 	protected int strike;
 	protected int strength;
 	
-	//protected hero hero;
+	protected Hero Hero;
 	
 	protected abstract int specAttack();
 	
