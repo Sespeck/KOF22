@@ -1,12 +1,10 @@
 import java.util.concurrent.ThreadLocalRandom;
 
-abstract class weapons {
+abstract class Weapon {
 	
 	protected int durability;
 	protected int strike;
-	protected int strength;
-	
-	protected Hero Hero;
+	protected Hero hero;
 	
 	protected abstract int specAttack();
 	
@@ -14,7 +12,7 @@ abstract class weapons {
 		if(this.durability <= 0) {
 			return 0;
 		}
-		int r = randInt(1, this.strength);
+		int r = randInt(1, this.strike);
 		this.durability --;
 		return r;
 	}

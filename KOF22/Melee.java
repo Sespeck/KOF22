@@ -5,7 +5,7 @@ public class Melee extends weapons{
 	//to do in Driver: set up high strength
 	
 	@Override
-	protected int specAttack() {
+	public int specAttack() {
 		if(this.durability <= 0) {
 			return 0;
 		}
