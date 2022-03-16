@@ -12,7 +12,18 @@ class Hero extends Character {
     public Hero(String name, int hp, int power, int mana){
         super(name, hp, power);
         this.mana = mana;
+        this.alive = true;
+        this.weapon = null;
     }
+    
+    /**
+     * A setter for adding a weapon
+     * @param weapon
+     */
+    public void setWeapon(Weapon weapon){
+        this.weapon = weapon;
+    }
+    
     /**
      * Print out a character information
      * @return a formatted string
@@ -28,6 +39,14 @@ class Hero extends Character {
      */
     public int getMana(){
         return this.mana;
+    }
+    
+    /**
+     * A getter to get the hero's weapon
+     * @return
+     */
+    public Weapon getWeapon(){
+        return this.weapon;
     }
 
     /**
