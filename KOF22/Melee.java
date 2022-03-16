@@ -3,8 +3,10 @@
 public class Melee extends Weapon{
 
 	this.name = "Melee";
-	this.durability=5;
+	this.durability=8;
 	this.strike = 8;
+	
+	
 	
 
 	
@@ -19,7 +21,7 @@ public class Melee extends Weapon{
 		int r = randInt(5,this.getStrike());
 		
 		
-		this.setDurability(this.getDurability() -3);
+		this.setDurability(this.getDurability() -4);
 		return r;
 	}
 

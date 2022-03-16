@@ -19,7 +19,7 @@ abstract class Weapon {
 			return 0;
 		}
 		int r = randInt(1, this.strike);
-		this.durability --;
+		this.durability -2;
 		return r;
 	}
 	
@@ -31,7 +31,9 @@ abstract class Weapon {
 		return ThreadLocalRandom.current().nextInt(min,max+1);
 	}
 
-
+	protected void setHero(Hero hero){
+		this.hero = hero;
+	}
 
 	protected String toString(){
 		return “Name: ” + this.name + "\nDurability: " + this.durability + "\nStrike: " + this.strike + "\n";

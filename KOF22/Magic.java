@@ -1,11 +1,14 @@
 
-public class Magic {
+public class Magic extends Weapon{
 
 	//logic for Magic, if hero runs out of mana, attack with Magic return 0
 	
- 	this.name = "Magic";
- 	this.strike = 6;
- 	this.durability = this.hero.getMana();
+
+ 	public Magic(){
+ 		this.name = "Magic";
+ 		this.strike = 6;
+ 		this.durability = this.hero.getMana();	
+ 	}
  	
 
 	@Override
@@ -14,9 +17,9 @@ public class Magic {
 			return 0;
 		}
 		
-		int r = randInt(1,this.getStrike());
+		int r = randInt(2,this.getStrike());
 		
-		this.Hero.setMana(this.Hero.getMana()-1);
+		this.Hero.setMana(this.Hero.getMana()-2);
 		return r;
 	}
 	
@@ -26,9 +29,9 @@ public class Magic {
 			return 0;
 		}
 		
-		int r = randInt(3,this.getStrike());
-		
-		this.Hero.setMana(this.Hero.getMana()-3);
+		int r = randInt(4,this.getStrike());
+		this.Hero.setMana(this.Hero.getMana()-4);
+
 		return r;
 	}
 	
