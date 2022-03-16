@@ -5,13 +5,8 @@ public class Melee extends weapons{
 	//to do in Driver: set up high strength
 	
 	@Override
-<<<<<<< Updated upstream
 	public int specAttack() {
 		if(this.durability <= 0) {
-=======
-	protected int specAttack() {
-		if(this.getDurability() <= 0) {
->>>>>>> Stashed changes
 			return 0;
 		}
 		// Melee is a weapon that has a high strength based special attack but takes a high durability cost. 
