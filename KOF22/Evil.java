@@ -4,6 +4,7 @@ class Evil extends Character {
 
     public Evil(String name, int hp, int power){
         super(name, hp, power);
+        this.alive = true;
     }
 
     /**
