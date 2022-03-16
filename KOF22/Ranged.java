@@ -1,5 +1,5 @@
 
-public class Ranged {
+public class Ranged extends Weapon{
 	
 	public Ranged(){
  		this.setName("Ranged");
@@ -15,7 +15,7 @@ public class Ranged {
 		
 		int r = randInt(0,this.getStrike());
 		
-		this.setDurability(this.getSurability()-2);
+		this.setDurability(this.getDurability()-2);
 		
 		return r;
 	

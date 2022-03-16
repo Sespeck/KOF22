@@ -7,7 +7,7 @@ public class Magic extends Weapon{
  	public Magic(){
  		this.setName("Magic");
  		this.setStrike(6);
- 		this.setDurability(this.getHero.getMana());	
+ 		this.setDurability(this.getHero().getMana());	
  	}
  	
 
@@ -19,7 +19,7 @@ public class Magic extends Weapon{
 		
 		int r = randInt(2,this.getStrike());
 		
-		this.getHero().setMana(this.Hero.getMana()-2);
+		this.getHero().setMana(this.getHero().getMana()-2);
 		return r;
 	}
 	

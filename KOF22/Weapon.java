@@ -32,12 +32,16 @@ abstract class Weapon {
 	}
 
 
-	protected String toString(){
-		return “Name: ” + this.name + "\nDurability: " + this.durability + "\nStrike: " + this.strike + "\n";
+	public String toString(){
+		return “Name: ” + this.getName() + "\nDurability: " + this.getDurability() + "\nStrike: " + this.getStrike() + "\n";
 	}
 	
 	protected void setName(String name){
 		this.name = name;
+	}
+	
+	protected String getName(){
+		return this.name;
 	}
 	
 	protected void setDurability(int number){
