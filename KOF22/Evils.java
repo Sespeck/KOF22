@@ -1,7 +1,7 @@
 public class Evils extends CharaterList{
     private ArrayList<Character> evilList;
     public Evils(){
-       ArrayList<Evil> evilList = new ArrayList<Evil>();
+        evilList = new ArrayList<Evil>();
     
     	evilList.add(new BadGuy("zombie", 200, 10));
     	evilList.add(new BadGuy("werewolf", 200, 10));
