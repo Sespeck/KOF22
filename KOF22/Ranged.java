@@ -1,7 +1,10 @@
 
 public class Ranged {
 
-	//to do: set low strike in driver
+
+	this.name = "Ranged";
+	this.durability = 5;
+	this.strike = 5;
 	
 	@Override
 	public int specAttack(){
@@ -9,7 +12,7 @@ public class Ranged {
 		return 0;
 		}
 		
-		iny r = randInt(0,this.getStrike());
+		int r = randInt(0,this.getStrike());
 		
 		this.setDurability(this.getSurability()-1);
 		

@@ -2,7 +2,9 @@
 
 public class Melee extends weapons{
 
-	//to do in Driver: set up high strength
+	this.name = "Melee"";
+	this.durability=5;
+	this.strike = 8;
 	
 	@Override
 	public int specAttack() {
@@ -14,7 +16,7 @@ public class Melee extends weapons{
 		// Durability cost of other weapon is 1, Melee's is 3 
 		int r = randInt(5,this.getStrike());
 		
-		//is this a secure way to write code than "this.durability -= 3"?
+		
 		this.setDurability(this.getDurability() -3);
 		return r;
 	}
