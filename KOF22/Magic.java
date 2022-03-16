@@ -19,18 +19,18 @@ public class Magic extends Weapon{
 		
 		int r = randInt(2,this.getStrike());
 		
-		this.Hero.setMana(this.Hero.getMana()-2);
+		this.getHero().setMana(this.Hero.getMana()-2);
 		return r;
 	}
 	
 	@Override
 	public int specAttack(){
-		if(this.getHero.getMana() <= 0) {
+		if(this.getHero().getMana() <= 0) {
 			return 0;
 		}
 		
 		int r = randInt(4,this.getStrike());
-		this.getHero.setMana(this.getHero().getMana()-4);
+		this.getHero().setMana(this.getHero().getMana()-4);
 
 		return r;
 	}
