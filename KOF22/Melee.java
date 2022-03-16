@@ -2,7 +2,7 @@
 
 public class Melee extends weapons{
 
-	this.name = "Melee"";
+	this.name = "Melee";
 	this.durability=5;
 	this.strike = 8;
 	
