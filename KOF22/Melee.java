@@ -1,10 +1,12 @@
 
 
-public class Melee extends weapons{
+public class Melee extends Weapon{
 
 	this.name = "Melee";
 	this.durability=5;
 	this.strike = 8;
+	
+
 	
 	@Override
 	public int specAttack() {
