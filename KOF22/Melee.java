@@ -2,17 +2,19 @@
 
 public class Melee extends Weapon{
 
-	this.name = "Melee";
-	this.durability=8;
-	this.strike = 8;
-	
-	
+
+	public Melee(){
+ 		this.setName("Melee");
+ 		this.setStrike(8);
+ 		this.setDurability(8);	
+ 	}
+ 	
 	
 
 	
 	@Override
 	public int specAttack() {
-		if(this.durability <= 0) {
+		if(this.getDurability() <= 0) {
 			return 0;
 		}
 		// Melee is a weapon that has a high strength based special attack but takes a high durability cost. 

@@ -1,10 +1,11 @@
 
 public class Ranged {
-
-
-	this.name = "Ranged";
-	this.durability = 6;
-	this.strike = 6;
+	
+	public Ranged(){
+ 		this.setName("Ranged");
+ 		this.setStrike(6);
+ 		this.setDurability(6);	
+ 	}
 	
 	@Override
 	public int specAttack(){

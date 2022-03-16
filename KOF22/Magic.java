@@ -5,15 +5,15 @@ public class Magic extends Weapon{
 	
 
  	public Magic(){
- 		this.name = "Magic";
- 		this.strike = 6;
- 		this.durability = this.hero.getMana();	
+ 		this.setName("Magic");
+ 		this.setStrike(6);
+ 		this.setDurability(this.getHero.getMana());	
  	}
  	
 
 	@Override
 	public int attack() {
-		if(this.hero.getMana() <= 0) {
+		if(this.getHero().getMana() <= 0) {
 			return 0;
 		}
 		
@@ -25,12 +25,12 @@ public class Magic extends Weapon{
 	
 	@Override
 	public int specAttack(){
-		if(this.hero.getMana() <= 0) {
+		if(this.getHero.getMana() <= 0) {
 			return 0;
 		}
 		
 		int r = randInt(4,this.getStrike());
-		this.Hero.setMana(this.Hero.getMana()-4);
+		this.getHero.setMana(this.getHero().getMana()-4);
 
 		return r;
 	}
