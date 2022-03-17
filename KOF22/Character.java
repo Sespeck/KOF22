@@ -5,7 +5,7 @@ public abstract class Character {
     protected int power;
     protected int hitPoints;
     protected boolean alive;
-    static int hp;
+    protected int hp; 
 
     /**
      * A constructor for a character who has name, hitpoints, power and if alive or not.
@@ -19,7 +19,7 @@ public abstract class Character {
         this.name = name;
         this.hitPoints = hp;
         this.power = power;
-        this.hp = hp;
+        this.hp = hp; // get the hitPoints for resetting later
     }
     
     /**
