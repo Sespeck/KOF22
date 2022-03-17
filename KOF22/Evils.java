@@ -1,11 +1,11 @@
-public class Evils extends CharaterList{
+public class Evils implements CharaterList{
     private ArrayList<Character> evilList;
     public Evils(){
         evilList = new ArrayList<Evil>();
-    
-    	evilList.add(new BadGuy("zombie", 200, 10));
-    	evilList.add(new BadGuy("werewolf", 200, 10));
-    	evilList.add(new BadGuy("goblin", 200, 10));
+        
+    	evilList.add(new Evil("zombie", 20, 3));
+    	evilList.add(new Evil("werewolf", 20, 3));
+    	evilList.add(new Evil("goblin", 20, 3));
     }
 
      public void out(int index){
