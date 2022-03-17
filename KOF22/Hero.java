@@ -1,6 +1,7 @@
 class Hero extends Character {
     private int mana;
     private Weapon weapon;
+    private int mn;
 
     /**
      * A constructor for hero
@@ -14,6 +15,7 @@ class Hero extends Character {
         this.mana = mana;
         this.alive = true;
         this.weapon = null;
+        this.mn = mana;
     }
     
     /**
@@ -30,6 +32,14 @@ class Hero extends Character {
      */
     public void setMana(int mana){
         this.mana = mana;
+    }
+    
+    /**
+     * A setter
+     * reset mana for a hero
+     */
+    public void resetMana(){
+        this.mana = this.mn;
     }
     
     /**
