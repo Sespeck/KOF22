@@ -25,6 +25,14 @@ class Hero extends Character {
     }
     
     /**
+     * A setter for adding a weapon
+     * @param weapon
+     */
+    public void setMana(int mana){
+        this.mana = mana;
+    }
+    
+    /**
      * Print out a character information
      * @return a formatted string
      */
