@@ -13,7 +13,7 @@ public class Ranged extends Weapon{
 		return 0;
 		}
 		
-		int r = randInt(0,this.getStrike());
+		int r = randInt(4,this.getStrike());
 		
 		this.setDurability(this.getDurability()-2);
 		
