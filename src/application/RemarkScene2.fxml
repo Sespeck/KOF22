@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="remarkscene2" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SwitchSceneController">
+   <children>
+      <ImageView id="border" fitHeight="904.0" fitWidth="1515.0" layoutX="-62.0" layoutY="-62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@border.png" />
+         </image>
+      </ImageView>
+      
+      <ImageView fitHeight="139.0" fitWidth="860.0" layoutX="160.0" layoutY="568.0" pickOnBounds="true">
+         <image>
+            <Image url="@RemarkLabelBG.jpeg" />
+         </image></ImageView>
+      <Label layoutX="195.0" layoutY="567.0" prefHeight="122.0" prefWidth="791.0" styleClass="remark" text="But one day, the Dark Knight from Devil Mountain invaded in, bloods and tears were spread..." wrapText="true" />
+      
+      <ImageView fitHeight="37.0" fitWidth="148.0" layoutX="1067.0" layoutY="651.0" pickOnBounds="true">
+         <image>
+            <Image url="@StartSceneButton.jpg" />
+         </image>
+      </ImageView>       		
+      <Button layoutX="1067.0" layoutY="645.0" mnemonicParsing="false" onAction="#switchToRemarkScene3" prefHeight="50.0" prefWidth="148.0" styleClass="button" stylesheets="@style.css" text="Continue" textOverrun="CLIP" />
+   </children>
+</AnchorPane>

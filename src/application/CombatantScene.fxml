@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="battlebackground" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CombatantSceneController">
+   <children>
+      <ImageView id="border" fitHeight="904.0" fitWidth="1515.0" layoutX="-62.0" layoutY="-62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@border.png" />
+         </image>
+      </ImageView>
+      <AnchorPane id="Combatants" layoutX="-6.0" layoutY="55.0" prefHeight="629.0" prefWidth="1324.0">
+         <children>
+            <ImageView fitHeight="199.0" fitWidth="234.0" layoutX="87.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hero1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="220.0" fitWidth="220.0" layoutX="315.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hero2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="228.0" layoutX="961.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Evil5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="234.0" layoutX="961.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hero5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="221.0" layoutX="746.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Evil4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="220.0" layoutX="742.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hero4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="221.0" layoutX="528.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Evil3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="223.0" fitWidth="220.0" layoutX="528.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Hero3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="204.0" fitWidth="222.0" layoutX="317.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Evil2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="219.0" fitWidth="221.0" layoutX="87.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Evil1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="191.0" fitWidth="155.0" layoutX="120.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@HeroHalo.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" fitHeight="191.0" fitWidth="149.0" layoutX="126.0" layoutY="378.0" opacity="0.92" pickOnBounds="true">
+               <image>
+                  <Image url="@evilHalo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="191.0" fitWidth="155.0" layoutX="348.0" layoutY="35.0" pickOnBounds="true">
+               <image>
+                  <Image url="@HeroHalo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="191.0" fitWidth="155.0" layoutX="561.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@HeroHalo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="191.0" fitWidth="155.0" layoutX="779.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@HeroHalo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="191.0" fitWidth="155.0" layoutX="995.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@HeroHalo.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" fitHeight="191.0" fitWidth="149.0" layoutX="564.0" layoutY="374.0" opacity="0.92" pickOnBounds="true">
+               <image>
+                  <Image url="@evilHalo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" fitHeight="191.0" fitWidth="149.0" layoutX="353.0" layoutY="378.0" opacity="0.92" pickOnBounds="true">
+               <image>
+                  <Image url="@evilHalo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" fitHeight="191.0" fitWidth="149.0" layoutX="785.0" layoutY="378.0" opacity="0.92" pickOnBounds="true">
+               <image>
+                  <Image url="@evilHalo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" fitHeight="191.0" fitWidth="149.0" layoutX="1001.0" layoutY="378.0" opacity="0.92" pickOnBounds="true">
+               <image>
+                  <Image url="@evilHalo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="108.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@HeroNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="328.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@HeroNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="548.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@HeroNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="760.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@HeroNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="976.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@HeroNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="101.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EvilNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="328.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EvilNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="539.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EvilNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="757.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EvilNameBG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="983.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EvilNameBG.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="132.0" layoutY="240.0" styleClass="characterNames" text="Chester Wells" />
+            <Label layoutX="355.0" layoutY="240.0" styleClass="characterNames" text="Anastasia Fry" />
+            <Label layoutX="591.0" layoutY="240.0" styleClass="characterNames" text="Glenn Bray" />
+            <Label layoutX="800.0" layoutY="240.0" styleClass="characterNames" text="Travis Ruiz" />
+            <Label layoutX="1016.0" layoutY="240.0" styleClass="characterNames" text="Eva Heath" />
+            <Label layoutX="170.0" layoutY="585.0" prefHeight="30.0" prefWidth="71.0" styleClass="characterNames" text="Ihlih" />
+            <Label layoutX="397.0" layoutY="585.0" styleClass="characterNames" text="Mastli" />
+            <Label layoutX="607.0" layoutY="585.0" styleClass="characterNames" text="Askus" />
+            <Label layoutX="821.0" layoutY="585.0" styleClass="characterNames" text="Ehtlelu" />
+            <Label layoutX="1035.0" layoutY="585.0" styleClass="characterNames" text="Usseshla" />
+            <Label alignment="CENTER" layoutX="466.0" layoutY="-30.0" prefHeight="61.0" prefWidth="379.0" styleClass="titleHeroIntro" text="HEROES">
+               <font>
+                  <Font name="WenYue FangTangTi (Authorization Required) J" size="49.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8552631735801697" green="0.5068225860595703" blue="0.5068225860595703" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.011278195488721804">
+                           <color>
+                              <Color red="0.9605262875556946" green="0.14230018854141235" blue="0.14230018854141235" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9924812030075187">
+                           <color>
+                              <Color red="0.8031290769577026" green="0.8552631735801697" blue="0.229653999209404" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.0416666679084301" blue="0.0416666679084301" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label alignment="CENTER" layoutX="463.0" layoutY="306.0" prefHeight="65.0" prefWidth="370.0" styleClass="titleHeroIntro" text="EVILS">
+               <font>
+                  <Font name="WenYue FangTangTi (Authorization Required) J" size="52.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.06481481343507767" green="1.0" blue="0.06481481343507767" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <ImageView id="heroCircle" fx:id="hero1KO" fitHeight="164.0" fitWidth="191.0" layoutX="113.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="hero2KO" fitHeight="164.0" fitWidth="191.0" layoutX="330.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="hero3KO" fitHeight="164.0" fitWidth="191.0" layoutX="543.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="hero4KO" fitHeight="164.0" fitWidth="191.0" layoutX="764.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="hero5KO" fitHeight="164.0" fitWidth="191.0" layoutX="981.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="evil1KO" fitHeight="164.0" fitWidth="191.0" layoutX="102.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="evil2KO" fitHeight="164.0" fitWidth="191.0" layoutX="333.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="evil3KO" fitHeight="164.0" fitWidth="191.0" layoutX="553.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="evil4KO" fitHeight="164.0" fitWidth="191.0" layoutX="756.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="heroCircle" fx:id="evil5KO" fitHeight="164.0" fitWidth="191.0" layoutX="977.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="37.0" fitWidth="222.0" layoutX="929.0" layoutY="703.0" pickOnBounds="true">
+         <image>
+            <Image url="@StartSceneButton.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="148.0" layoutX="1176.0" layoutY="702.0" pickOnBounds="true">
+         <image>
+            <Image url="@StartSceneButton.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="switchToWeaponSceneButton" disable="true" layoutX="1176.0" layoutY="696.0" mnemonicParsing="false" onAction="#switchToWeaponScene" prefHeight="50.0" prefWidth="148.0" styleClass="button" text="Continue" textOverrun="CLIP" />
+      <Button fx:id="characterPickerButton" layoutX="929.0" layoutY="701.0" mnemonicParsing="false" onAction="#characterPicker" prefHeight="40.0" prefWidth="222.0" text="Character  Picker" textFill="WHITE" />
+      <ImageView id="evilCircle" fx:id="evilCircle" fitHeight="191.0" fitWidth="219.0" layoutX="220.0" layoutY="-191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@EvilCircle.png" />
+         </image>
+      </ImageView>
+      <ImageView id="heroCircle" fx:id="heroCircle" fitHeight="191.0" fitWidth="219.0" layoutX="219.0" layoutY="-209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@HeroCircle.png" />
+         </image>
+      </ImageView>
+      <ImageView id="heroCircle" fx:id="koImage" fitHeight="164.0" fitWidth="191.0" layoutX="14.0" layoutY="-161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@KO.png" />
+         </image>
+      </ImageView>
+      <Group fx:id="congratulationsGroup" layoutX="216.0" layoutY="721.0">
+         <children>
+            <ImageView fitHeight="95.0" fitWidth="875.0" layoutX="-11.0" layoutY="61.0" pickOnBounds="true">
+               <image>
+                  <Image url="@StartSceneButton.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="148.0" layoutX="694.0" layoutY="87.0" pickOnBounds="true">
+               <image>
+                  <Image url="@StartSceneButton.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="switchToEndSceneButton" layoutX="694.0" layoutY="84.0" mnemonicParsing="false" onAction="#switchToEndScene" prefHeight="44.0" prefWidth="148.0" styleClass="button" text="Continue" textOverrun="CLIP" />
+            <Label fx:id="congratulations" layoutX="11.0" layoutY="76.0" prefHeight="66.0" prefWidth="658.0" styleClass="remark" text="Label" />
+         </children>
+      </Group>
+      
+   </children>
+</AnchorPane>

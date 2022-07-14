@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Balsamiq+Sans&family=Beau+Rivage&family=Covered+By+Your+Grace&family=Creepster&family=Hubballi&family=Indie+Flower&family=Luckiest+Guy&family=Pinyon+Script&family=Press+Start+2P&family=Rubik+Glitch&family=Satisfy&family=Schoolbell&family=Source+Sans+Pro&family=Special+Elite&family=Ubuntu+Mono&family=Ultra&display=swap');
+.startscene{
+	-fx-background-image: url("StartScene.png");
+	-fx-background-size: cover;
+}
+
+.remarkscene1{
+	-fx-background-image: url("RemarkScene1.png");
+	-fx-background-size: cover;
+}
+
+.remarkscene2{
+	-fx-background-image: url("RemarkScene2.png");
+	-fx-background-size: cover;
+}
+
+.remarkscene3{
+	-fx-background-image: url("RemarkScene3.png");
+	-fx-background-size: cover;
+}
+
+.battlebackground{
+	-fx-background-image: url("BattleBackground.png");
+	-fx-background-size: cover;
+}
+
+.remark{
+	-fx-font-family: 'Beau Rivage', cursive;
+	-fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-font-size: 35px;
+}
+
+
+.button{
+	-fx-skin: 'application.MyButtonSkin';
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Luckiest Guy', cursive;
+    -fx-font-size: 20;
+    -fx-text-fill: #000000;
+} 
+
+.attackButton{
+	-fx-skin: 'application.MyButtonSkin';
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Luckiest Guy', cursive;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+} 
+
+.whiteText{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Luckiest Guy', cursive;
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+} 
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: red;
+    -fx-background-insets: 0;
+}
+
+.endSceneImage{
+	-fx-background-size: cover;
+}
+
+.credit{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Hubballi', cursive;
+    -fx-font-size: 30;
+    -fx-text-fill: #ffffff;
+}
+
+.heroProfile{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Ubuntu Mono', monospace;
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+} 
+
+.title{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:'Ultra', serif;
+    -fx-font-size: 40;
+}
+
+.titleHeroIntro{
+    -fx-font-family:'Press Start 2P', cursive;
+    -fx-font-size: 35;
+}
+
+.characterNames{
+	-fx-font-family: 'Covered By Your Grace', cursive;
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 25;
+    -fx-text-fill: #ffffff;
+}
+
+characterStatus{
+	-fx-font-family: 'Indie Flower', cursive;
+}
